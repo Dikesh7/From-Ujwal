@@ -1,0 +1,96 @@
+.sidebar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100px;
+    transition: width 0.3s ease-in-out; /* Add a smooth transition effect */
+  }
+
+  .sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    opacity: 0; /* Hide the navigation bar by default */
+  }
+  
+  /* Show the navigation bar when hovering over the parent element */
+  .sidebar-container:hover .sidebar {
+    opacity: 1;
+  }
+  
+  .sidebar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Styles for the sections */
+  section {
+    height: 100vh;
+    padding: 50px;
+    font-size: 24px;
+    transition: padding-left 0.5    s ease-in-out;
+    scroll-behavior: smooth; /* Add a smooth transition effect */
+  }
+  
+  #home {
+    background-color: #ffffff;
+   
+  }
+  
+  #intro {
+    background-color: #f2f4ff;
+  }
+  
+  #contact {
+    background-color: #e7e7e7;
+    scroll-behavior: smooth;    
+  }
+  
+  /* Add left padding to content container when sidebar is shown */
+  .sidebar-container:hover + .content-container {
+    padding-left: 100px;
+  }
+.namebox{    
+    border:none;
+    height:40px;
+    width:400px;
+    text-align: center;
+  }
+  .emailbox{
+    margin-top:13px;
+    border:none;
+    height:40px;
+    width:400px;
+    text-align: center;
+  }
+  .messagebox{
+    margin-top:10px;
+    border:none;
+    height:40px;
+    width:400px;
+    text-align: center;
+  }
+  button{
+    margin-top:30px;
+    color:#3584da;
+    border:solid;
+    border-color:#3584da;
+    background-color:white;
+    width:90px;
+    height:40px;
+    border-radius:30px;
+    cursor:pointer;
+  }
+img{
+border-radius: 30px;
+
+}
