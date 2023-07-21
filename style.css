@@ -94,6 +94,9 @@
     background-color: #3584da;
     color: white;
   }
+  button:active{
+    opacity:0.75;
+  }
 img{
 border-radius: 30px;
 
