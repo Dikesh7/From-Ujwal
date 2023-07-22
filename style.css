@@ -2,6 +2,7 @@
 
 html {
   scroll-behavior: smooth;
+  transition: all 0.35s ease 0s;
 }
 body{
   margin:0;
@@ -87,7 +88,7 @@ button:hover{
 
 } 
 #page_top{
-  height:80vh;
+  height:90vh;
 }
 .socials{
   height:8vh;
