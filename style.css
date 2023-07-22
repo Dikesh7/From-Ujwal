@@ -109,3 +109,7 @@ button:hover{
 ion-icon{
   color:white;
 }
+.copyright{
+  color:#012f3a;
+  opacity:0.7;
+}
