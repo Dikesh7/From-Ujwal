@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+body{
+  margin:0;
+  padding:0
+}
 header{
   box-sizing:border-box;
-  margin:0;
-  padding:0;  
   background-color: #1d1d20;
 }
 *{
@@ -33,6 +38,11 @@ header{
 }
 .prof h5{
   color:#ecf0f1;
+  font-size:16px;
+  
+}
+.prof h5:hover{
+  color: rgba(0,136,169,0.85);
   
 }
 .nav_links{
@@ -58,4 +68,42 @@ button{
 }
 button:hover{
   background-color: rgba(0,136,169,0.85);
+}
+#home{
+  padding-top:20px;
+  align-self: center;
+  align-items: center;
+}
+.text{
+  color:#ecf0f1;
+}
+.text h6{
+  font-size: medium;
+
+}
+.text p{
+  padding: 0 30vh;
+  justify-self: center;
+
+} 
+#page_top{
+  height:80vh;
+}
+.socials{
+  height:8vh;
+  display:flex; 
+  justify-content: center;
+  align-items:center;
+  padding:30px 10%;
+}
+#socials ion-icon{
+  margin-left:10px;
+}
+#socials h4{
+  color:#ecf0f1;
+  align-self:center;
+}
+
+ion-icon{
+  color:white;
 }
