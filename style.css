@@ -100,8 +100,9 @@ button:hover{
   margin-left:10px;
 }
 #socials h4{
-  color:#ecf0f1;
+  color:rgba(0,136,169,0.85);
   align-self:center;
+  font-size:20px;
 }
 
 ion-icon{
