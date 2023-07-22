@@ -1,103 +1,61 @@
-.sidebar-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100px;
-    transition: width 0.3s ease-in-out; /* Add a smooth transition effect */
-  }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-  .sidebar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #f1f1f1;
-    padding: 20px 10px;
-    opacity: 0; /* Hide the navigation bar by default */
-  }
+header{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;  
+  background-color: #1d1d20;
+}
+*{
+  background-color: #1d1d20;
+}
+li,a{
+  font-family: "montserrat",sans-serif;
+  font-weight:500;
+  font-size:16px;
+  color: #ecf0f1;
+  text-decoration: none;
   
-  /* Show the navigation bar when hovering over the parent element */
-  .sidebar-container:hover .sidebar {
-    opacity: 1;
-  }
+}
+header{
+  display:flex; 
+  justify-content: flex-end;
+  align-items:center;
+  padding:30px 10%;
+}
+.prof{
+  margin-right:auto;
+  display:flex;
+ 
+}
+.prof img:hover{
+  cursor:pointer;
+}
+.prof h5{
+  color:#ecf0f1;
   
-  .sidebar a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  /* Styles for the sections */
-  section {
-    height: 100vh;
-    padding: 50px;
-    font-size: 24px;
-    transition: padding-left 0.5    s ease-in-out;
-    scroll-behavior: smooth; /* Add a smooth transition effect */
-  }
-  
-  #home {
-    background-color: #ffffff;
-   
-  }
-  
-  #intro {
-    background-color: #f2f4ff;
-  }
-  
-  #contact {
-    background-color: #e7e7e7;
-    scroll-behavior: smooth;    
-  }
-  
-  /* Add left padding to content container when sidebar is shown */
-  .sidebar-container:hover + .content-container {
-    padding-left: 100px;
-  }
-.namebox{    
-    border:none;
-    height:40px;
-    width:400px;
-    text-align: center;
-  }
-  .emailbox{
-    margin-top:13px;
-    border:none;
-    height:40px;
-    width:400px;
-    text-align: center;
-  }
-  .messagebox{
-    margin-top:10px;
-    border:none;
-    height:40px;
-    width:400px;
-    text-align: center;
-  }
-  button{
-    margin-top:30px;
-    color:#3584da;
-    border:solid;
-    border-color:#3584da;
-    background-color:white;
-    width:90px;
-    height:40px;
-    border-radius:30px;
-    cursor:pointer;
-  }
-  button:hover{
-    background-color: #3584da;
-    color: white;
-  }
-  button:active{
-    opacity:0.75;
-  }
-img{
-border-radius: 30px;
-
+}
+.nav_links{
+  list-style:none;
+}
+.nav_links li{
+  display: inline-block;
+  padding:0 3rem;
+}
+.nav_links li a{
+  transition: all 0.35s ease 0s;
+}
+.nav_links li a:hover{
+  color:#0088a9;
+}
+button{
+  padding:9px 25px;
+  background-color: rgba(0,136,169,1);
+  border:none;
+  border-radius:50px;
+  cursor:pointer;
+  transition: all 0.35s ease 0s;
+}
+button:hover{
+  background-color: rgba(0,136,169,0.85);
 }
