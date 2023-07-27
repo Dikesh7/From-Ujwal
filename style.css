@@ -103,12 +103,11 @@ footer{
   color:#012f3a;
   opacity:0.7;
 }
-#socials h5:hover{
+#socials h4:hover{
   color:#ecf0f1;
-  font-size:20px;
+  transition: all 0.35s ease 0s;
 }
 .socials ion-icon:hover{
   color:rgba(0,136,169,0.85);
-  font-size:20px;
   transition: all 0.35s ease 0s;
 }
