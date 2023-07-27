@@ -41,6 +41,7 @@ header{
 }
 .prof h5:hover{
   color: rgba(0,136,169,0.85);
+  transition: all 0.35s ease 0s;
   
 }
 .nav_links{
@@ -74,7 +75,7 @@ button:hover{
   font-size: medium;
 }
 .text p{
-  padding: 0 30vh;
+  padding: 0 15rem;
   justify-self: center;
 } 
 #page_top{
@@ -101,4 +102,13 @@ ion-icon{
 footer{
   color:#012f3a;
   opacity:0.7;
+}
+#socials h5:hover{
+  color:#ecf0f1;
+  font-size:20px;
+}
+.socials ion-icon:hover{
+  color:rgba(0,136,169,0.85);
+  font-size:20px;
+  transition: all 0.35s ease 0s;
 }
