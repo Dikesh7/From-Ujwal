@@ -68,3 +68,35 @@ button{
 button:hover{
   background-color: rgba(0,136,169,0.85);
 }
+#hyperlinks{
+    height:120vh;
+}
+.prof img:hover{
+    transform:scale(1.3);
+    z-index: 2;
+    transition: all 0.35s ease 0s;
+}
+#hyperlinks{
+  display:block;
+}
+.links{
+  list-style:none;
+}
+.links li{
+  display: inline-block;
+  padding-top:3rem;
+}
+.links{
+  color:#0088a9;
+}
+.links li:hover{
+  transform:scale(1.3);
+  z-index: 2;
+  transition: all 0.35s ease 0s;
+}
+.anchor{
+  color:#0088a9;
+  font-weight:600;
+  font-size:20px;
+  padding-bottom:10px;
+}
